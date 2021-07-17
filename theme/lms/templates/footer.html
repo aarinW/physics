@@ -92,24 +92,7 @@
           </ol>
         </nav>
         {% endif %}
-        <div class="social-links">
-          <a href="https://www.facebook.com/tecnico.ulisboa.pt">
-            <span class="fa fa-facebook" style="font-size:30px;color:white"></span>
-          </a>
-          <a href="https://twitter.com/istecnico">
-            <span class="fa fa-twitter" style="font-size:30px;color:white"></span>
-          </a>
-          <a href="https://www.linkedin.com/school/ist/">
-            <span class="fa fa-linkedin" style="font-size:30px;color:white"></span>
-          </a>
-          <a href="https://www.youtube.com/user/isttv">
-            <span class="fa fa-youtube" style="font-size:30px;color:white"></span>
-          </a>
-          <a href="https://www.instagram.com/tecnico_lisboa/">
-            <span class="fa fa-instagram" style="font-size:30px;color:white"></span>
-          </a>
-        </div>
-      </div>
+        
         % if context.get('include_language_selector', footer_language_selector_is_enabled()):
             <%include file="${static.get_template_path('widgets/footer-language-selector.html')}"/>
         % endif
