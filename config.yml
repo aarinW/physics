@@ -6,8 +6,18 @@ INDIGO_PRIMARY_COLOR: "#3b85ff" # cool blue
 # INDIGO_FOOTER_NAV_LINKS: []
 # INDIGO_FOOTER_LEGAL_LINKS: []
 INDIGO_FOOTER_NAV_LINKS:
+  - title: "Courses"
+    url: "courses"
+  - title: "Blog"
+    url: "blog"
+  - title: "Privacy"
+    url: "/privacy"
+  - title: "Contact"
+    url: "/contact"
   - title: "About"
     url: "/about"
+  - title: "Contact"
+    url: "/contact"
   - title: "Contact"
     url: "/contact"
 INDIGO_FOOTER_LEGAL_LINKS:
