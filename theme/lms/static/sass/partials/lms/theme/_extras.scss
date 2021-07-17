@@ -185,9 +185,10 @@ nav.wrapper-preview-menu {
 
 /////////////////// Footer
 .wrapper-footer {
-  box-shadow: none;
+ // box-shadow: none;
+   box-shadow:  5px 10px red;
   padding: 25px 40px;
-  border-top: thick double red;
+  //border-top: thick double red;
   background-color: DodgerBlue;
 
   .wrapper-logo {
