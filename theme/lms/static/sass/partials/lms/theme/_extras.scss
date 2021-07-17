@@ -187,8 +187,8 @@ nav.wrapper-preview-menu {
 .wrapper-footer {
  // box-shadow: none;
   //box-shadow:  5px 10px red;
-  font-weight: 600;
-  color: White;
+ // font-weight: 600;
+  //color: White;
   box-shadow: 
         inset 0px 11px 8px -10px Red,
         inset 0px -11px 8px -10px Orange;
@@ -207,6 +207,8 @@ nav.wrapper-preview-menu {
   }
   footer#footer-openedx .footer-about-openedx {
       a {
+        font-weight: 600;
+        color: White;
           float: none;
       }
       p {
