@@ -207,12 +207,14 @@ nav.wrapper-preview-menu {
   }
   footer#footer-openedx .footer-about-openedx {
       a {
-        font-weight: 600;
-        color: White;
           float: none;
       }
       p {
           text-align: right;
       }
   }
+}
+ .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
+    color: White; !important;
+   font-weight: 600; !important;
 }
