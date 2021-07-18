@@ -37,3 +37,6 @@
     text-align: left;
     font-size: 1.4em;
 }
+.wrapper-footer footer#footer-openedx .nav-legal li:not(:first-child)::before {
+  color: $primary;
+}
