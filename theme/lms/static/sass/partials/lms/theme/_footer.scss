@@ -74,6 +74,23 @@ div.wrapper-footer footer#footer-openedx .footer-about-openedx a{
   border-top: 1px solid $primary;
   background-color: $primary;
   color: $inverse;
+ .wrapper-logo {
+      display: none;
+  }
+  .copyright {
+      display: none;
+  }
+  .nav-legal ul {
+      display: inline-block;
+  }
+  footer#footer-openedx .footer-about-openedx {
+      a {
+          float: none;
+      }
+      p {
+          text-align: right;
+      }
+  }
 }
 
 .wrapper .wrapper-footer {
@@ -145,8 +162,8 @@ div.wrapper-footer footer#footer-openedx
 
   .wrapper-footer footer#footer-openedx .copyright {
     //text-align: center;
-    display: none;
-   // color: $inverse;
+    
+   color: $inverse;
   }
 
 
@@ -166,8 +183,8 @@ div.wrapper-footer footer#footer-openedx
 @media (max-width: 500px) {
 
   .wrapper-footer footer#footer-openedx .copyright {
-   display: none;
-   // text-align: center;
-   // color: $inverse;
+   
+   text-align: center;
+   color: $inverse;
   }
 }
