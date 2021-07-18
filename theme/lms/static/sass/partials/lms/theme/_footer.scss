@@ -1,0 +1,38 @@
+/////////////////// Footer
+.wrapper-footer {
+  border-top: 1px solid $primary;
+  background-color: $primary;
+  color: $inverse;
+  padding: 15px 40px;
+  //border-top: thick double red;
+ 
+
+  .wrapper-logo {
+      display: none;
+  }
+  .copyright {
+      display: none;
+  }
+  .nav-legal ul {
+      display: inline-block;
+  }
+  footer#footer-openedx .footer-about-openedx {
+      a {
+          float: none;
+      }
+      p {
+          text-align: right;
+      }
+  }
+}
+ .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
+    color: White;
+   font-weight: 600;
+}
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon {
+    margin: 5px 0 20px 0;
+}
+.wrapper-footer footer#footer-openedx .nav-legal {
+    text-align: left;
+    font-size: 1.4em;
+}
