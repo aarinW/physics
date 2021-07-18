@@ -23,6 +23,9 @@
       }
   }
 }
+.wrapper-footer footer#footer-openedx a {
+ color: $inverse;
+}
  .wrapper-footer footer#footer-openedx .colophon .nav-colophon li a {
     color: $primary;
    font-weight: 600;
