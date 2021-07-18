@@ -121,6 +121,7 @@ div.wrapper-footer footer#footer-openedx {
 
 div.colophon nav.nav-legal ul {
   margin-left: 0;
+  display: inline-block;
 }
 
 .wrapper-footer footer#footer-openedx div.wrapper-logo {
@@ -144,7 +145,8 @@ div.wrapper-footer footer#footer-openedx
 
   .wrapper-footer footer#footer-openedx .copyright {
     //text-align: center;
-    color: $inverse;
+    display: none;
+   // color: $inverse;
   }
 
 
