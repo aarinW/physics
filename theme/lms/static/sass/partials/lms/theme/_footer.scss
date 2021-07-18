@@ -166,7 +166,8 @@ div.wrapper-footer footer#footer-openedx
 @media (max-width: 500px) {
 
   .wrapper-footer footer#footer-openedx .copyright {
-    text-align: center;
-    color: $inverse;
+   display: none;
+   // text-align: center;
+   // color: $inverse;
   }
 }
