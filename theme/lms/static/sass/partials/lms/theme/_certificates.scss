@@ -1,15 +1,19 @@
-// Certificate overrides for edx.org
+// Certificate overrides for the dark theme
 
 .certificate-card {
-  // Note: edx.org no longer supports audit certificates, but there are
-  // legacy certificates that might be rendered. In this situation, they
-  // are styled as honor certificates.
-  &.mode-honor,
   &.mode-audit {
+    border-color: $audit-mode-color;
+
+    .card-logo {
+      background-image: url('#{$static-path}/images/certificates/red-certificate.png');
+    }
+  }
+
+  &.mode-honor {
     border-color: $honor-mode-color;
 
     .card-logo {
-      background-image: url('#{$static-path}/images/certificates/honor.png');
+      background-image: url('#{$static-path}/images/certificates/red-certificate.png');
     }
   }
 
@@ -17,7 +21,7 @@
     border-color: $verified-mode-color;
 
     .card-logo {
-      background-image: url('#{$static-path}/images/certificates/verified.png');
+      background-image: url('#{$static-path}/images/certificates/red-certificate.png');
     }
   }
 
@@ -25,7 +29,7 @@
     border-color: $professional-certificate-color;
 
     .card-logo {
-      background-image: url('#{$static-path}/images/certificates/professional.png');
+      background-image: url('#{$static-path}/images/certificates/red-certificate.png');
     }
   }
 }
