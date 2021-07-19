@@ -11,7 +11,7 @@ INDIGO_FOOTER_NAV_LINKS:
   - title: "Blog"
     url: "blog"
   - title: "Contact"
-    url: "/support/contact_us"
+    url: "/contact"
   - title: "About"
     url: "/about"
 
