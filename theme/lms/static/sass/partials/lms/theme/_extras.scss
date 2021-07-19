@@ -45,7 +45,11 @@
     border-radius: 30px;
     box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
 }
-
+.login-register .form-field input.error, .financial-assistance-wrapper .financial-assistance-form .form-field input.error, .login-register .form-field select.error, .financial-assistance-wrapper .financial-assistance-form .form-field select.error, .login-register .form-field textarea.error, .financial-assistance-wrapper .financial-assistance-form .form-field textarea.error {
+    border-color: #b20610;
+    border-radius: 30px;
+     box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+}
 //generals
 
 body, html, button, textarea {
