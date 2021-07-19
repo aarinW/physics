@@ -36,6 +36,16 @@
   max-width: 600px;
   margin: auto;
 }
+.login-register .form-field input, .financial-assistance-wrapper .financial-assistance-form .form-field input, .login-register .form-field select, .financial-assistance-wrapper .financial-assistance-form .form-field select, .login-register .form-field textarea, .financial-assistance-wrapper .financial-assistance-form .form-field textarea {
+    display: block;
+    height: 32px;
+    width: 100%;
+    margin: 0 0 5px;
+    padding: 0 10px;
+    border-radius: 30px;
+    box-shadow: rgb(0 0 0 / 15%) 1.95px 1.95px 2.6px;
+}
+
 //generals
 
 body, html, button, textarea {
