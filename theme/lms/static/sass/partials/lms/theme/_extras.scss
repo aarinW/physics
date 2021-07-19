@@ -17,6 +17,10 @@
 @import 'login-register';
 @import 'course-experience';
 
+//header
+.home>header .title {
+    border-radius: 30px;
+}
 
 //registration 
 .view-register .form-actions button[type="submit"]:hover {
