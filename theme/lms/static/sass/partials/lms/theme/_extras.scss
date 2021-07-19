@@ -21,7 +21,10 @@
 .home>header .title {
     border-radius: 30px;
 }
-
+.home>header .title .course-search .search-input {
+     box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+      border-radius: 30px;
+}
 //registration 
 .view-register .form-actions button[type="submit"]:hover {
   background-color:#fff;
