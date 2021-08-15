@@ -120,7 +120,9 @@ section.intro div.main-cta a strong {
 }
 
 .course-info header.course-profile .intro-inner-wrapper {
-  box-shadow:none !important;
+  margin: none;
+  background-color: #FFF;
+  box-shadow: none;
 }
 
 .content-wrapper .course-info header.course-profile {
