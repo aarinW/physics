@@ -269,7 +269,11 @@ iframe.rocket-chat-view {
     }
   }
 }
-
+.course-info header.course-profile .intro-inner-wrapper {
+  margin: none;
+  background-color: #FFF;
+  box-shadow:none;
+}
 @media (min-width: 768px) {
   .view-profile .tabpanel {
     .badge-set-display {
